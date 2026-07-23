@@ -1,8 +1,14 @@
 aid: a-frame
 name: A-Frame
-description: 'A-Frame is a company surfaced as a portfolio company of initialized-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'A-Frame Brands is a Los Angeles-based consumer brand incubator and product-development
+  company founded in 2019 by entrepreneur Ari Bloom and actor Hill Harper. It partners with celebrities
+  and cultural figures to build purpose-driven personal-care, beauty, fragrance, home-care, and pet-care
+  brands, taking each from opportunity identification through product development, design, sourcing,
+  production, and retail go-to-market. Brands in its portfolio include LOVED01 (John Legend), Kinlo
+  (Naomi Osaka), Proudly (Gabrielle Union and Dwyane Wade), and Purrfect Paws, sold through retailers
+  such as Target, Walmart, Amazon, CVS, JCPenney, QVC, and Bath & Body Works. Backed by Initialized
+  Capital. This is a consumer company profile in the API Evangelist network; A-Frame publishes no public
+  API or developer program.'
 url: https://raw.githubusercontent.com/api-evangelist/a-frame/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,31 @@ x-backed-by:
 - initialized-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+x-enriched: '2026-07-17'
+image: https://cdn.prod.website-files.com/67ade13b03f6c4a50e99f097/6830cf770943bfffec2977a4_Opengraph.png
 tags:
 - Company
 - Consumer
+- Consumer Packaged Goods
+- Personal Care
+- Beauty
+- Brand Incubator
+- Retail
+- Venture Backed
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/a-frame-domain-security.yml
 - type: Website
   url: https://aframebrands.com/
+- type: PrivacyPolicy
+  url: https://aframebrands.com/policies/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/a-frame-brands
+- type: Instagram
+  url: https://www.instagram.com/aframebrands/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
